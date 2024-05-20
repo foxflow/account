@@ -3,8 +3,8 @@
 	export let nameLabelText = `New Workspace / Team Name`;
 	export let slugLabelText = `Slug`;
 	export let buttonText = `Create Team`;
-	export let slugHelpText = `<strong>A unique url for your team</strong> &ndash; only contain lowercase letters,
-				numbers, and hyphens are allowed.`;
+	export let slugHelpText = `<strong>A unique team url</strong> &ndash; only lowercase letters,
+				numbers, and "-" allowed.`;
 	export let onAfterCreate = () => {};
 	export let onError = (err) => {
 		console.error(error);
