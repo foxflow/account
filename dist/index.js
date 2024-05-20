@@ -8,6 +8,7 @@ export {
 	AuthUI,
 	CreateAccount,
 	ListMembers,
+	MemberSelect,
 	CreateInvite,
 	ListUserInvites
 } from './account';

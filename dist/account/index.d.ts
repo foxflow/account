@@ -7,6 +7,7 @@ export const avatar: import("svelte/store").Writable<boolean>;
 export { default as AuthUI } from "./AuthUI.svelte";
 export { default as CreateAccount } from "./CreateAccount.svelte";
 export { default as ListMembers } from "./ListMembers.svelte";
+export { default as MemberSelect } from "./MemberSelect.svelte";
 export { default as CreateInvite } from "./CreateInvite.svelte";
 export { default as ListUserInvites } from "./ListUserInvites.svelte";
 export function trackAuthState(): Promise<{
