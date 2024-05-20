@@ -14,7 +14,7 @@
 <form on:submit|preventDefault={submitCreateAccount}>
 	<div class="row align-items-end">
 		<div class="col-12 mb-3">
-			<label for="name" class="form-label">New Team / Workspace Name</label>
+			<label for="name" class="form-label">New Workspace / Team Name</label>
 			<input id="name" required bind:value={name} type="text" class="form-control" />
 		</div>
 		<div class="col-12 mb-3">
@@ -29,8 +29,8 @@
 				class="form-control"
 			/>
 			<div class="help-text fs-5 mt-2 text-muted">
-				<strong>A unique URL for your team</strong> &ndash; only contain lowercase letters,
-				numbers, and hyphens are allowed.
+				This creates unique URL's for your team. It can only contain lowercase letters,
+				numbers, and hyphens.
 			</div>
 		</div>
 	</div>
