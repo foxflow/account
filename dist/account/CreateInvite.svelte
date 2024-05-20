@@ -67,11 +67,11 @@
 			<div class="col-4 mb-3">
 				<label for="email" class="form-label">Access Level</label>
 				<select bind:value={account_role} class="form-select">
-					<option value="owner">Full</option>
-					<option value="member">Restricted</option>
+					<option value="owner">Admin</option>
+					<option value="member">Standard</option>
 				</select>
 			</div>
 		</div>
-		<button type="submit" class="btn btn-primary mt-3 w-100">Authorize New User</button>
+		<button type="submit" class="btn btn-outline-primary mt-3 w-100">Authorize New User</button>
 	</form>
 {/if}

@@ -4,7 +4,7 @@
 	export let slugLabelText = `Slug`;
 	export let buttonText = `Create Team`;
 	export let slugHelpText = `<strong>A unique team url</strong> &ndash; only lowercase letters,
-				numbers, and "-" allowed.`;
+				numbers, and "-" are allowed`;
 	export let onAfterCreate = () => {};
 	export let onError = (err) => {
 		console.error(error);
