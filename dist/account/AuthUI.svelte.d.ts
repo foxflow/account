@@ -3,6 +3,7 @@
 /** @typedef {typeof __propDef.slots}  AuthUiSlots */
 export default class AuthUi extends SvelteComponent<{
     theme?: any;
+    view?: string;
 }, {
     [evt: string]: CustomEvent<any>;
 }, {}> {
@@ -14,6 +15,7 @@ import { SvelteComponent } from "svelte";
 declare const __propDef: {
     props: {
         theme?: any;
+        view?: string;
     };
     events: {
         [evt: string]: CustomEvent<any>;
